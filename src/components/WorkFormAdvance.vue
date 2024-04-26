@@ -39,7 +39,7 @@
       </div>
     </div>
 
-    <button type="submit" class="btn btn-primary" :disabled="!workUpdated">
+    <button type="submit" class="btn btn-primary" :disabled="workUpdated">
       {{ editing ? 'Update' : 'Create' }}
     </button>
     <button class="btn btn-outline-dark ml-2" @click="moveToWorkList">
