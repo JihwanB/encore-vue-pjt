@@ -1,5 +1,5 @@
 # 베이스 이미지
-FROM node:22.0.0
+FROM node:20.12.2
 
 # 클라우드 환경에서의 디렉토리를 의미
 WORKDIR /front-vue
